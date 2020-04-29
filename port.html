@@ -1,149 +1,193 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
- <meta charset="utf-8">
+ <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width,initial-scale=1.0">
  <meta http-equiv="X-UA-Compatble" content="ie=edge">
 <title>PROFILE</title>
 <style type="text/css">
 
-body {
-    background-color: turquoise;
+html {
+    
 }
+
+body {
+    background-color: #f0f6da;
+    /* overflow: hidden; */
+
+}
+
 
 #profile {
     height: 60px;
-    width: 80px;
+    width: 350px;
     background-color: transparent;
     text-align: left;
-    left: 30px;
-    top: 100px;
+    left: 13px;
+    top: 160px;
     margin: 0px;
     position: absolute; 
+    font-size: x-large;
+    line-height: 60px;
+    z-index: 1;
 }
 
 #name {
     height: 50px;
-    width: 70px;
+    width: 300px;
     background-color: transparent;
+    font-family: cursive;
+    font-size: xx-large;
     text-align: left;
-    left: 60px;
-    top: 250px;
+    left: 230px;
+    top: 515px;
     margin: 0px;
     position: absolute;
+    z-index: 4;
+    display: block;
+    
 }
-
-
-
-
 
 #age {
     height: 50px;
-    width: 70px;
+    width: 150px;
     background-color: transparent;
+    font-family: cursive;
+    font-size: xx-large;
     text-align: left;
-    left: 700px;
-    top: 320px;
+    left: 780px;
+    top: 705px;
     margin: 0px;
     position: absolute;
+    z-index: 4;
+    display: block;
 }
 
 #dob {
     height: 40px;
-    width: 180px;
+    width: 800px;
     background-color: transparent;
+    font-family: cursive;
+    font-size: xx-large;
     text-align: left;
-    left: 53px;
-    top: 410px;
+    left: 170px;
+    top: 845px;
     margin: 0px;
     position: absolute;
+    z-index: 4;
+    display: block;
 }
 
 #address {
     height: 50px;
-    width: 70px;
+    width: 300px;
     background-color: transparent;
+    font-family: cursive;
+    font-size: xx-large;
     text-align: left;
-    left: 700px;
-    top: 480px;
+    left: 780px;
+    top: 970px;
     margin: 0px;
     position: absolute;
+    z-index: 4;
+    display: block;
 }
 
 #education {
     height: 50px;
-    width: 80px;
+    width: 330px;
     background-color: transparent;
+    font-family: cursive;
+    font-size: xx-large;
+    color: ivory;
     text-align: left;
-    left: 60px;
-    top: 560px;
+    left: 210px;
+    top: 1160px;
     margin: 0px;
     position: absolute;
+    z-index: 4;
+    display: block;
 }
 
 #like {
     height: 50px;
-    width: 70px;
+    width: 400px;
     background-color: transparent;
+    font-family: cursive;
+    font-size: xx-large;
     text-align: left;
-    left: 700px;
-    top: 640px;
+    left: 770px;
+    top: 1350px;
     margin: 0px;
     position: absolute;
+    z-index: 4;
+    display: block;
 }
 
 #skills {
     height: 50px;
-    width: 80px;
+    width: 700px;
     background-color: transparent;
+    font-family: cursive;
+    font-size: xx-large;
     text-align: left;
-    left: 60px;
-    top: 730px;
+    left: 250px;
+    top: 1750px;
     margin: 0px;
     position: absolute;
+    z-index: 4;
+    display: block;
 }
 
 #study {
     height: 50px;
-    width: 80px;
+    width: 900px;
     background-color: transparent;
+    font-family: cursive;
+    font-size: xx-large;
     text-align: left;
-    left: 60px;
-    top: 780px;
+    left: 250px;
+    top: 1840px;
     margin: 0px;
     position: absolute;
+    z-index: 4;
+    display: block;
 }
 
-#pcp {
+#photo1 {
     background-image:url("coffee-801781_1280.png");
     background-repeat: repeat;
     background-size: cover;
     height: 250px;
-    width: 420px;
+    width: 450px;
     object-fit: cover;
     position: absolute;
     left: 0px;
-    top: 0ex;
+    top: 0px;
+    display: block;
 }
 
-#only { 
-    background-color: #fcd575;
+
+#color1 { 
+    background-color: #7b5544;
     height: 250px;
     width: 350px;
     left: 400px;
     top: 0px;
     position: absolute;
+    display: block
 }
 
-#only2 {
-    background-color: #622b18;
+#color2 {
+    background-color: #665a1a;
     height: 250px;
     width: 200px;
     top: 0px;
     position: absolute;
     right: 0ex;
+    display: block
 }
- #pcp2 {
+ #photo2 {
     background-image:url("elly20160701025103_TP_V.png");
     background-repeat: repeat;
     background-size: cover;
@@ -152,48 +196,205 @@ body {
     object-fit: cover;
     position: absolute;
     right: 200px;
-    top: 0ex;
+    top: 0px;
+    display: block
  }
- #only3 {
+ #color3 {
     background-color: #24140e;
-    height: 50px;
-    width: auto;
+    background-size: cover;
+    height: 80px;
+    width: 100%;
+    left: 0px;
     top: 250px;
     position: absolute;
-    display: flex;
+    display: block;
+    border-color: #24140e;
+    box-sizing: 10px;
 }
- }
 
-
-
-#pc1 {
-    background-image:url("");
+#photo3 {
+    background-image:url("003AMEMAN17517_TP_V.png");
     background-repeat: repeat;
     background-size: cover;
-    height: 300px;
-    width: auto;
-    object-fit: cover;  
+    height: 260px;
+    width: 700px;
+    object-fit: cover;
+    position: absolute;
+    left: 150px;
+    top: 450px;
+    display: block;
+    z-index: 3;
 }
+ 
+#photo4 {
+    background-image:url("55c27e91661f149b96c97ae5ee41ddcc_t.png");
+    background-repeat: repeat;
+    background-size: cover;
+    height: 260px;
+    width: 700px;
+    object-fit: cover;
+    position: absolute;
+    right: 140px;
+    top: 640px;
+    display: block;
+    z-index: 2;
+}
+#photo5 {
+    background-image:url("c50ee83f9744d93982cb0eda1481fb4a_t.png");
+    background-repeat: repeat;
+    background-size: cover;
+    height: 260px;
+    width: 700px;
+    object-fit: cover;
+    position: absolute;
+    left: 150px;
+    top: 1090px;
+    display: block;
+    z-index: 2;
+}
+#photo6 {
+    background-image:url("9279959ab59dad207098e624b52f8f47_t.png");
+    background-repeat: repeat;
+    background-size: cover;
+    height: 260px;
+    width: 700px;
+    object-fit: cover;
+    position: absolute;
+    right: 140px;
+    top: 1280px;
+    display: block;
+    z-index: 2;
+}
+#photo7 {
+    background-image:url("5264413350_11e5cde6ce.png");
+    background-repeat: repeat;
+    background-size: cover;
+    height: 270px;
+    width: 450px;
+    object-fit: cover;
+    position: absolute;
+    left: 140px;
+    top: 1700px;
+    display: block;
+    z-index: 2;
+}
+#photo8 {
+    background-image:url("c807fe9e01caecce587a49ee0c7d452c_t.png");
+    background-repeat: repeat;
+    background-size: cover;
+    height: 230px;
+    width: 450px;
+    object-fit: cover;
+    position: absolute;
+    left: 500px;
+    top: 1830px;
+    display: block;
+    z-index: 2;
+}
+#photo9 {
+    background-image:url("82307207-フラワー-ショップの花の素敵なシンプルな組成物.png");
+    background-repeat: repeat;
+    background-size: cover;
+    height: 270px;
+    width: 500px;
+    object-fit: cover;
+    position: absolute;
+    left: 850px;
+    top: 1670px;
+    display: block;
+    z-index: 2;
+}
+#photo10 {
+    background-image:url("coffee-801781_1280.jpg");
+    background-size: cover;
+    height: 280px;
+    width: 400px;
+    object-fit: cover;
+    position: absolute;
+    right: 0px;
+    top: 2230px;
+    display: block;
+}
+#photo11 {
+    background-image:url("003AMEMAN17517_TP_V.jpg");
+    background-size: cover;
+    height: 280px;
+    width: 425px;
+    object-fit: cover;
+    position: absolute;
+    right: 400px;
+    top: 2230px;
+    display: block;
+}
+#color4 { 
+    background-color: #665a1a;
+    height: 280px;
+    width: 205px;
+    right: 825px; 
+    top: 2230px;
+    position: absolute;
+    display: block
+}
+
+#photo12 {
+    background-image:url("44162b28a7c8772918bbc97719f9faa8_t.jpeg");
+    background-repeat: repeat;
+    background-size: cover;
+    height: 280px;
+    width: 250px;
+    object-fit: cover;
+    position: absolute;
+    left: 0px;
+    top: 2230px;
+    display: block
+ }
+ #color5 {
+    background-color: #24140e;
+    background-size: cover;
+    height: 80px;
+    width: 100%;
+    left: 0px;
+    top: 2150px;
+    position: absolute;
+    display: block;
+    border-color: #24140e;
+    box-sizing: 10px;
+}
+
+
 
 </style>
  </head>
 <body>
-<div id="pcp"><div id="profile"><h1>PROFILE</h1></div></div>
-<div id="only"></div>
-<div id="only2"></div>
-<div id="pcp2"></div>
-<div id="only3"></div>
+<div id="photo1"><div id="profile"><h1>P R O F I L E</h1></div></div>
+<div id="color1"></div>
+<div id="color2"></div>
+<div id="photo2"></div>
+<div id="color3"></div>
 <h2>
-<div class="pc1"><div id="name"><p>Name</p></div></div>
-<div id="age"><p>Age</p></div>
-<div id="dob"><p>Date of Birth</p></div>
-<div id="address"><p>Address</p></div>
-<div id="education"><p>Education</p></div>
-<div id="like"><p>Like</p></div>
-<div id="skills"> <p>Skills</p></div>
-<div id="study"><p>Study</p></div>
+<div id="name"><p>Name : 篠原七海</p></div>
+<div id="age"><p>Age : 22</p></div>
+<div id="dob"><p>Date of Birth : 1997,07,10</p></div>
+<div id="address"><p>Address : 神奈川県</p></div>
+<div id="education"><p>Education : 和光大学</p></div>
+<div id="like"><p>Like : アニメ , 猫</p></div>
+<div id="skills"> 
+    <p>Skills : 図書館司書 , 普通自動車免許</p></div>
+<div id="study"><p>Study : MOS(Excel) , HTML , JaveScript , SQL </p></div>
 </h2>
+<div id="photo3"></div>
+<div id="photo4"></div>
+<div id="photo5"></div>
+<div id="photo6"></div>
+<div id="photo7"></div>
+<div id="photo8"></div>
+<div id="photo9"></div>
 
+<div id="photo10"></div>
+<div id="photo11"></div>
+<div id="color4"></div>
+<div id="photo12"></div>
+<div id="color5"></div>
 
 
 
