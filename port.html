@@ -7,14 +7,19 @@
 <title>PROFILE</title>
 <style type="text/css">
 
-
 html {
     height: 100%;
 }
 
 body {    
     background-color: #f0f6da;
+    background-image:url("18352203.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100%;
+    width: 100%; 
 }
 
 
@@ -33,18 +38,20 @@ body {
 }
 
 #name {
-    height: 50px;
+    height: 10px;
     width: 300px;
     background-color: transparent;
     font-family: cursive;
     font-size: xx-large;
     text-align: left;
+    line-height: 50px;
     left: 230px;
     top: 515px;
     margin: 0px;
     position: absolute;
     z-index: 4;
     display: block;
+    transition: .4s;
     
 }
 
@@ -63,14 +70,14 @@ body {
     display: block;
 }
 
-#dob {
+#date {
     height: 40px;
     width: 800px;
     background-color: transparent;
     font-family: cursive;
     font-size: xx-large;
     text-align: left;
-    left: 170px;
+    left: 230px;
     top: 845px;
     margin: 0px;
     position: absolute;
@@ -141,7 +148,7 @@ body {
 
 #study {
     height: 50px;
-    width: 900px;
+    width: 950px;
     background-color: transparent;
     font-family: cursive;
     font-size: xx-large;
@@ -190,6 +197,7 @@ body {
     display: block;
     z-index: 2;
 }
+
  #photo2 {
     background-image:url("elly20160701025103_TP_V.png");
     background-repeat: repeat;
@@ -203,6 +211,7 @@ body {
     display: block;
     z-index: 2;
  }
+
  #color3 {
     background-color: #24140e;
     background-size: cover;
@@ -244,6 +253,7 @@ body {
     display: block;
     z-index: 2;
 }
+
 #photo5 {
     background-image:url("c50ee83f9744d93982cb0eda1481fb4a_t.png");
     background-repeat: repeat;
@@ -257,6 +267,7 @@ body {
     display: block;
     z-index: 2;
 }
+
 #photo6 {
     background-image:url("9279959ab59dad207098e624b52f8f47_t.png");
     background-repeat: repeat;
@@ -270,6 +281,7 @@ body {
     display: block;
     z-index: 2;
 }
+
 #photo7 {
     background-image:url("5264413350_11e5cde6ce.png");
     background-repeat: repeat;
@@ -283,6 +295,7 @@ body {
     display: block;
     z-index: 2;
 }
+
 #photo8 {
     background-image:url("c807fe9e01caecce587a49ee0c7d452c_t.png");
     background-repeat: repeat;
@@ -296,6 +309,7 @@ body {
     display: block;
     z-index: 2;
 }
+
 #photo9 {
     background-image:url("82307207-フラワー-ショップの花の素敵なシンプルな組成物.png");
     background-repeat: repeat;
@@ -309,6 +323,7 @@ body {
     display: block;
     z-index: 2;
 }
+
 #photo10 {
     background-image:url("coffee-801781_1280.jpg");
     background-size: cover;
@@ -320,6 +335,7 @@ body {
     top: 2230px;
     display: block;
 }
+
 #photo11 {
     background-image:url("003AMEMAN17517_TP_V.jpg");
     background-size: cover;
@@ -331,6 +347,7 @@ body {
     top: 2230px;
     display: block;
 }
+
 #color4 { 
     background-color: #665a1a;
     height: 280px;
@@ -353,6 +370,7 @@ body {
     top: 2230px;
     display: block
  }
+
  #color5 {
     background-color: #24140e;
     background-size: cover;
@@ -366,67 +384,54 @@ body {
     box-sizing: 10px;
 }
 
-.parallax {
-    background-image:url("18352203.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    position: absolute;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    left: 0px;
-    top: 0px;
-    display: block;
-    z-index: 1;
-}
-
-
-
-
 </style>
- </head>
+</head>
 <body>
-<div id="photo1"><div id="profile"><h1>P R O F I L E</h1></div></div>
-<div id="color1"></div>
-<div id="color2"></div>
-<div id="photo2"></div>
-<div id="color3"></div>
-<h2>
-<div id="name"><p>Name : 篠原七海</p></div>
-<div id="age"><p>Age : 22</p></div>
-<div id="dob"><p>Date of Birth : 1997,07,10</p></div>
-<div id="address"><p>Address : 神奈川県</p></div>
-<div id="education"><p>Education : 和光大学</p></div>
-<div id="like"><p>Like : アニメ , 猫</p></div>
-<div id="skills"> 
+  <div id="photo1"><div id="profile"><h1>P R O F I L E</h1></div></div>
+  <div id="color1"></div>
+  <div id="color2"></div>
+  <div id="photo2"></div>
+  <div id="color3"></div>
+
+ <h2>
+  <div id="name"><p>Name : 篠原七海</p></div>
+  <div id="age"><p>Age : 22</p></div>
+  <div id="date"><p>Date of Birth : 07,10</p></div>
+  <div id="address"><p>Address : 神奈川県</p></div>
+  <div id="education"><p>Education : 和光大学</p></div>
+  <div id="like"><p>Like : アニメ , 猫</p></div>
+  <div id="skills"> 
     <p>Skills : 図書館司書 , 普通自動車免許</p></div>
-<div id="study"><p>Study : MOS(Excel) , HTML , JaveScript , SQL </p></div>
-</h2>
-<div id="photo3"></div>
-<div id="photo4"></div>
-<div id="photo5"></div>
-<div id="photo6"></div>
-<div id="photo7"></div>
-<div id="photo8"></div>
-<div id="photo9"></div>
+  <div id="study"><p>Study : MOS(Excel) , HTML , JaveScript , SQL </p></div>
+ </h2>
 
-<div id="photo10"></div>
-<div id="photo11"></div>
-<div id="color4"></div>
-<div id="photo12"></div>
-<div id="color5"></div>
+  <div id="photo3"></div>
+  <div id="photo4"></div>
+  <div id="photo5"></div>
+  <div id="photo6"></div>
+  <div id="photo7"></div>
+  <div id="photo8"></div>
+  <div id="photo9"></div>
 
-<div class="parallax"></div>
+  <div id="photo10"></div>
+  <div id="photo11"></div>
+  <div id="color4"></div>
+  <div id="photo12"></div>
+  <div id="color5"></div>
 
 <script>
     'use strict';
     const textChange = () => {
         document.getElementById("name").textContent = "名前 : 篠原七海";
+        document.getElementById("age").textContent = "年齢 : 22";
+        document.getElementById("date").textContent = "誕生日 : 07,10";
+        document.getElementById("address").textContent = "住所 :　神奈川県";
+        document.getElementById("education").textContent = "出身大学 : 和光大学";
+        document.getElementById("like").textContent = "好きなもの : アニメ , 猫";
+        document.getElementById("skills").textContent = "資格 : 図書館司書 , 普通自動車免許";
+        document.getElementById("study").textContent = "勉強していること : MOS(Excel) , HTML , JaveScript , SQL"; 
     }
-setTimeout(textChange,3000);
+    setInterval(textChange,2000);
 
 </script>
 </body>
