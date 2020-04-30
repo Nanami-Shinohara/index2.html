@@ -46,7 +46,7 @@ body {
     text-align: left;
     line-height: 50px;
     left: 230px;
-    top: 515px;
+    top: 539px;
     margin: 0px;
     position: absolute;
     z-index: 4;
@@ -63,7 +63,7 @@ body {
     font-size: xx-large;
     text-align: left;
     left: 780px;
-    top: 705px;
+    top: 740px;
     margin: 0px;
     position: absolute;
     z-index: 4;
@@ -78,7 +78,7 @@ body {
     font-size: xx-large;
     text-align: left;
     left: 230px;
-    top: 845px;
+    top: 870px;
     margin: 0px;
     position: absolute;
     z-index: 4;
@@ -93,7 +93,7 @@ body {
     font-size: xx-large;
     text-align: left;
     left: 780px;
-    top: 970px;
+    top: 995px;
     margin: 0px;
     position: absolute;
     z-index: 4;
@@ -109,7 +109,7 @@ body {
     color: ivory;
     text-align: left;
     left: 210px;
-    top: 1160px;
+    top: 1190px;
     margin: 0px;
     position: absolute;
     z-index: 4;
@@ -124,7 +124,7 @@ body {
     font-size: xx-large;
     text-align: left;
     left: 770px;
-    top: 1350px;
+    top: 1380px;
     margin: 0px;
     position: absolute;
     z-index: 4;
@@ -139,7 +139,7 @@ body {
     font-size: xx-large;
     text-align: left;
     left: 250px;
-    top: 1750px;
+    top: 1780px;
     margin: 0px;
     position: absolute;
     z-index: 4;
@@ -154,7 +154,7 @@ body {
     font-size: xx-large;
     text-align: left;
     left: 250px;
-    top: 1840px;
+    top: 1850px;
     margin: 0px;
     position: absolute;
     z-index: 4;
@@ -394,15 +394,14 @@ body {
   <div id="color3"></div>
 
  <h2>
-  <div id="name"><p>Name : 篠原七海</p></div>
-  <div id="age"><p>Age : 22</p></div>
-  <div id="date"><p>Date of Birth : 07,10</p></div>
-  <div id="address"><p>Address : 神奈川県</p></div>
-  <div id="education"><p>Education : 和光大学</p></div>
-  <div id="like"><p>Like : アニメ , 猫</p></div>
-  <div id="skills"> 
-    <p>Skills : 図書館司書 , 普通自動車免許</p></div>
-  <div id="study"><p>Study : MOS(Excel) , HTML , JaveScript , SQL </p></div>
+  <p id="name">名前 : 篠原七海</p>
+  <p id="age">年齢 : 22</p>
+  <p id="date">誕生日 : 07,10</p>
+  <p id="address">住所 :　神奈川県</p>
+  <p id="education">出身大学 : 和光大学</p>
+  <p id="like">好きなもの : アニメ , 猫</p>
+    <p id="skills">資格 : 図書館司書 , 普通自動車免許</p>
+ <p id="study">勉強していること : MOS(Excel) , HTML , JaveScript , SQL </p>
  </h2>
 
   <div id="photo3"></div>
@@ -421,17 +420,17 @@ body {
 
 <script>
     'use strict';
-    const textChange = () => {
-        document.getElementById("name").textContent = "名前 : 篠原七海";
-        document.getElementById("age").textContent = "年齢 : 22";
-        document.getElementById("date").textContent = "誕生日 : 07,10";
-        document.getElementById("address").textContent = "住所 :　神奈川県";
-        document.getElementById("education").textContent = "出身大学 : 和光大学";
-        document.getElementById("like").textContent = "好きなもの : アニメ , 猫";
-        document.getElementById("skills").textContent = "資格 : 図書館司書 , 普通自動車免許";
-        document.getElementById("study").textContent = "勉強していること : MOS(Excel) , HTML , JaveScript , SQL"; 
+     const textChange = () =>  {
+        document.getElementById("name").textContent = "Name : 篠原七海";
+        document.getElementById("age").textContent = "Age : 22";
+        document.getElementById("date").textContent = "Date of Birth : 07,10";
+        document.getElementById("address").textContent = "Address : 神奈川県";
+        document.getElementById("education").textContent = "Education : 和光大学";
+        document.getElementById("like").textContent = "Like : アニメ , 猫";
+        document.getElementById("skills").textContent = "Skills : 図書館司書 , 普通自動車免許";
+        document.getElementById("study").textContent = "Study : MOS(Excel) , HTML , JaveScript , SQL"; 
     }
-    setInterval(textChange,2000);
+     setTimeout(textChange,3000);
 
 </script>
 </body>
