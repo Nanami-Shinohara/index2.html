@@ -418,76 +418,23 @@ body {
   <div id="photo12"></div>
   <div id="color5"></div>
 
-  <button id="textChange">テキスト変更</button>
+ <script> 
+    'use strict';
 
 
 
-  <script>
-    'use strict';    
-    const textChange = () => {
-        document.getElementById('textChange').addEventListener('click',() =>{
+     const textChange = () =>  {
         document.getElementById("name").textContent = "Name : 篠原七海";
-        }
-        document.getElementById('textChange').addEventListener('click',() =>{
         document.getElementById("age").textContent = "Age : 22";
-        }
-        document.getElementById('textChange').addEventListener('click',() =>{
         document.getElementById("date").textContent = "Date of Birth : 07,10";
-        }
-        document.getElementById('textChange').addEventListener('click',() =>{
         document.getElementById("address").textContent = "Address : 神奈川県";
-        }
-        document.getElementById('textChange').addEventListener('click',() =>{
         document.getElementById("education").textContent = "Education : 和光大学";
-        }
-        document.getElementById('textChange').addEventListener('click',() =>{
         document.getElementById("like").textContent = "Like : アニメ , 猫";
-        }
-        document.getElementById('textChange').addEventListener('click',() =>{
         document.getElementById("skills").textContent = "Skills : 図書館司書 , 普通自動車免許";
-        }
-        document.getElementById('textChange').addEventListener('click',() =>{
-        document.getElementById("study").textContent = "Study : MOS(Excel) , HTML , JaveScript , SQL";      
-          }
+        document.getElementById("study").textContent = "Study : MOS(Excel) , HTML , JaveScript , SQL"; 
+    }
+     setTimeout(textChange,3000);
 
-
-//   document.getElementById('textChange').addEventListener('click',() =>{
-//       document.getElementById('target').textContent = "Changed";
-//   });
- 
-//  </script>
-
-//   <!-- <a class="btn">閉じる</a>
-//   <div class="toggle-box" >
-
-//     <script type="text/javascript" src="//code.jquery.com/jquery-3.1.1.min.js"></script>
-//     <script type="text/javascript">
-//         $(function () {
-//             $('.btn').on('click', function () {
-//                 if ($(this).text() === '閉じる') {
-//                     $(this).text('開く');
-//                 } else {
-//                     $(this).text('閉じる');
-//                 }
-//             });
-//         }); -->
- // <script> 
-//     'use strict';
-
-
-
-    //  const textChange = () =>  {
-    //     document.getElementById("name").textContent = "Name : 篠原七海";
-    //     document.getElementById("age").textContent = "Age : 22";
-    //     document.getElementById("date").textContent = "Date of Birth : 07,10";
-    //     document.getElementById("address").textContent = "Address : 神奈川県";
-    //     document.getElementById("education").textContent = "Education : 和光大学";
-    //     document.getElementById("like").textContent = "Like : アニメ , 猫";
-    //     document.getElementById("skills").textContent = "Skills : 図書館司書 , 普通自動車免許";
-    //     document.getElementById("study").textContent = "Study : MOS(Excel) , HTML , JaveScript , SQL"; 
-    // }
-    //  setTimeout(textChange,3000); -->
-
-</script>
+ </script>
 </body>
 </html>
